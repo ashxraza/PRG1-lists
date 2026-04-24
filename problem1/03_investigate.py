@@ -18,6 +18,9 @@
 playlist = ["Flowers", "Unholy", "As It Was"]
 # playlist.pop(10)
 
+#index error?
+#inded error out of range
+
 
 # --- Investigation B ---
 # What is the difference between .remove() and .pop()?
@@ -47,5 +50,5 @@ playlist = ["Flowers", "Unholy", "As It Was", "Anti-Hero", "Heat Waves"]
 # Predict what playlist * 2 will produce.
 
 playlist = ["Song A", "Song B", "Song C"]
-# playlist = playlist * 2
-# print(playlist)
+playlist = playlist * 2
+print(playlist)

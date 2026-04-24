@@ -6,11 +6,11 @@
 #
 # In your pairs, write down your answers to these questions:
 #
-#   1. What will be printed on line A?
-#   2. After .append() is called twice, how many songs are in the playlist?
-#   3. What does .pop(0) do? What value does `played` hold after that line?
-#   4. What will be printed on line B — what is playlist[0] at that point?
-#   5. What is the final value of len(playlist)?
+#   1. What will be printed on line A? "Flowers", "Unholy", "As It Was" 
+#   2. After .append() is called twice, how many songs are in the playlist? 5
+#   3. What does .pop(0) do? What value does `played` hold after that line? removes flowers and adds it to played
+#   4. What will be printed on line B — what is playlist[0] at that point?  Unholy
+#   5. What is the final value of len(playlist)? 5
 #
 # Write your predictions down before moving to 02_run.py
 # ==============================================================================

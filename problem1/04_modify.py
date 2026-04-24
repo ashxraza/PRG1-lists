@@ -17,7 +17,7 @@
 
 print("--- Modify A ---")
 playlist = ["Flowers", "Unholy", "As It Was", "Anti-Hero", "Heat Waves"]
-played = playlist.pop(0)        # ← change this line
+played = playlist.pop(4)        # ← change this line
 print(f"Now playing: {played}")
 print(f"Remaining: {playlist}")
 
@@ -29,7 +29,8 @@ print(f"Remaining: {playlist}")
 
 print("\n--- Modify B ---")
 playlist = ["Flowers", "Unholy", "As It Was"]
-playlist.append("Unholy")       # ← this should only happen if not already there
+if playlist != "Unholy":
+    playlist.append("Unholy")       # ← this should only happen if not already there
 print(playlist)
 
 
@@ -41,4 +42,6 @@ print(playlist)
 print("\n--- Modify C ---")
 playlist = ["Flowers", "Unholy", "As It Was", "Anti-Hero"]
 # TODO: remove the first song and add it to the end
+playlist_shuffle = playlist.pop(0)
+playlist.append(playlist_shuffle)
 print(playlist)
